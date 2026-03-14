@@ -122,7 +122,6 @@ Open `index.html` in your browser.
 # 👨‍💻 Authors
 
 **POORNA DINESH H D**
-**MANISH KUMAR**
 
 ---
 
