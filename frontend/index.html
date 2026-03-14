@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost & Found Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Campus Lost & Found</h1>
+
+    <div class="container">
+        <div class="card">
+            <h2>Report Lost Item</h2>
+            <input id="lost_name" placeholder="Item Name">
+            <input id="lost_desc" placeholder="Description">
+            <input id="lost_loc" placeholder="Location">
+            <input id="lost_owner" placeholder="Your Name">
+            <button onclick="reportLost()">Submit</button>
+        </div>
+
+        <div class="card">
+            <h2>Report Found Item</h2>
+            <input id="found_name" placeholder="Item Name">
+            <input id="found_desc" placeholder="Description">
+            <input id="found_loc" placeholder="Location">
+            <input id="found_finder" placeholder="Your Name">
+            <button onclick="reportFound()">Submit</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
